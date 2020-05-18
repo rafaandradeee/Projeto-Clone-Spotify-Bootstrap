@@ -1,0 +1,210 @@
+.font-size-bigger {
+  font-size: 1.2em;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.specialheight {
+  height: calc(1.5em + .75rem + 5px);
+  padding-top: 1px;
+}
+
+	html, body, #capa {
+        height: 100%;
+        overflow-x: hidden;
+      }
+
+      body {
+        background: url(../img/capa.png) fixed, url(../img/ruido.png), linear-gradient(90deg,#ff4169,#7c26f8);
+      }
+
+      .carousel-box {
+        text-align: center;
+      }
+
+      .header-bg {
+        background: rgba(0, 0, 0, 0.7);
+      }
+
+      #logo-top {
+        width: 9em;
+      }
+
+      .principal-text {
+        font-weight: bold;
+        letter-spacing: -0.04em;
+        color: white;
+      }
+
+      .btn-purple {
+        background: #7c25f8;
+        color: white;
+        border-radius: 150px;
+      }
+
+      .btn-purple:hover {
+        background: #6207e3;
+        color: white;
+      }
+
+      .btn-transition {
+        transition: background 0.4s, color 0.4s;
+      }
+
+      .btn-outline-white {
+        color: white;
+        border: 2px solid white;
+        border-radius: 150px;
+      } 
+
+      .btn-outline-white:hover {
+        background: white;
+      }
+
+      .text-purple {
+        color: #7c25f8;
+      } 
+
+      .text-white {
+        color: white;
+      }
+
+      .text-cyan {
+        color: #9bf0e1;
+      }
+
+      .text-gray {
+        color: grey;
+      }
+
+      .h-text1 {
+        font-weight: bold;
+        letter-spacing: -0.04em;
+        font-size: 3em;
+      }
+
+      .h-text2 {
+        font-weight: bold;
+        letter-spacing: -0.04em;
+        font-size: 2em;
+      }
+
+      #content-2-margin {
+        margin-top: 
+      }
+
+      .rotate-img {
+        transform: rotate(30deg);
+        padding-left: 80px;
+      }
+
+      .bg-black {
+        background: black;
+      }
+
+      .footer-link-size {
+        font-size: 0.8em;
+      }
+
+      footer {
+        position: relative;
+      }
+
+      #logo-footer {
+        width: 9em;
+      }
+
+@media (max-width: 575.98px) { 
+
+          #btn2 {
+            margin-top: 0.7em;
+          }
+
+          .principal-text{
+            font-size: 3.5em;
+            margin-bottom: 0.7em; 
+          } 
+
+
+          #social-media {
+            padding-left: 10em;
+            padding-bottom: 2em;
+          }
+
+        }
+
+          
+        @media (min-width: 350px) and (max-width: 575.98px) { 
+
+          #last-list {
+            margin-left: 2em; 
+          }
+
+        }
+        
+        @media (min-width: 576px) and (max-width: 767.98px) { 
+
+          #btn2 {
+            margin-top: 0.7em;
+          }
+
+          .principal-text {
+            font-size: 4em;
+            margin-bottom: 0.7em; 
+          }
+
+          #social-media {
+            padding-left: 10em;
+            padding-bottom: 2em;
+          }
+        }
+
+        
+        @media (min-width: 768px) and (max-width: 991.98px) { 
+        
+
+          .principal-text{
+            font-size: 5em;
+            margin-bottom: 0.5em;
+          } 
+
+          #social-media {
+            padding-left: 14em;
+            padding-bottom: 2em;
+          }
+
+          #logo-footer {
+            padding-right: 3em;
+          }
+
+
+        }
+
+        
+        @media (min-width: 992px) and (max-width: 1199.98px) { 
+
+          .principal-text{
+            font-size: 6em;
+            margin-bottom: 0.5em;
+          } }
+
+        
+        @media (min-width: 1200px) { 
+          .principal-text{
+            font-size: 7em;
+            margin-bottom: 0.5em;
+          }
+
+
+         }
+
+
+      
+      
+
